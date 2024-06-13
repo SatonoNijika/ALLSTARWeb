@@ -7,38 +7,38 @@
       </div>
       <div lass="tab-box">
         <div class="row1">
-          <img src="/public/img/UR10.png" alt="Large Image" />
+          <img src="/public/img/taiche.jpg" alt="Large Image" />
         </div>
        <div class="row2">
             <div class="list">
                 <ul>
                     <li>
                         <div class="pic">
-                        <i><img src="/public/img/UR10.jpg" alt="图片"></i>
+                        <i><img src="/public/img/A.jpg" alt="图片"></i>
                         </div>
                         <div class="tit">A-STAR</div>
                     </li>
                     <li>
                         <div class="pic">
-                        <i><img src="/public/img/FTK500.png" alt="图片"></i>
+                        <i><img src="/public/img/B.jpg" alt="图片"></i>
                         </div>
                         <div class="tit">U-STAR</div>
                     </li>
                     <li>
                         <div class="pic">
-                        <i><img src="/public/img/lichuangan.png" alt="图片"></i>
+                        <i><img src="/public/img/C.jpg" alt="图片"></i>
                         </div>
                         <div class="tit">C-STAR</div>
                     </li>
                     <li>
                         <div class="pic">
-                        <i><img src="/public/img/chuangan.png" alt="图片"></i>
+                        <i><img src="/public/img/D.jpg" alt="图片"></i>
                         </div>
                         <div class="tit">On-STAR</div>
                     </li>
                     <li>
                         <div class="pic">
-                        <i><img src="/public/img/timo.png" alt="图片"></i>
+                        <i><img src="/public/img/C2.jpg" alt="图片"></i>
                         </div>
                         <div class="tit">Body-STAR</div>
                     </li>
@@ -82,7 +82,7 @@
 
 .row1 img {
   width: 100%; /* 大图片宽度占满容器 */
-  height: 1000px; /* 自适应高度 */
+  height: 1261px; /* 自适应高度 */
   border-radius: 20px;
 }
 

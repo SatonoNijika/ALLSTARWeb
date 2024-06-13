@@ -15,7 +15,7 @@
         </div>
         <div class="right">
           <div class="pic">
-            <img src="/public/img/xray.png" alt="Product Image">
+            <img src="/public/img/taiche.jpg" alt="Product Image">
           </div>
         </div>
       </div>

@@ -37,7 +37,7 @@
                 </dd>
               </dl>
                 <dl class="dl-item">
-                <dt>应用</dt>
+                <dt>产品应用</dt>
                 <dd>
                   <span>肝肿瘤穿刺</span><br>
                   <span>肝肿瘤消融</span><br>
@@ -104,8 +104,8 @@ import { ElImage } from 'element-plus'; // 导入 Element Plus 的图片组件
 
 .container {
   width: 100%;
-  margin-left: 264px; /* 左外边距 */
-  margin-right: 264px; /* 右外边距 */
+  margin-left: 224px; /* 左外边距 */
+  margin-right: 224px; /* 右外边距 */
 }
 
 .footer-t {

@@ -13,8 +13,8 @@ const { locale } = useI18n();
 locale.value = localStorage.getItem('locale') || 'zh-cn';
 
 const scale = ref(1);
-const baseWidth = 2750;  // 基准宽度
-const baseHeight = 1440; // 基准高度
+const baseWidth = 2750;  // Base width
+const baseHeight = 1440; // Base height
 
 const updateScale = () => {
   const viewportWidth = window.innerWidth;
@@ -23,20 +23,32 @@ const updateScale = () => {
   const heightScale = viewportHeight / baseHeight;
   scale.value = Math.min(widthScale, heightScale);
 
-  // 设置居中样式
+  // Centering style
   wrapperStyle.value = {
     transform: `scale(${scale.value})`,
-    transformOrigin: 'center center',
+    transformOrigin: 'top center',  // 改为 'top center'
     width: `${baseWidth}px`,
     height: `${baseHeight}px`,
     position: 'absolute',
-    top: `50%`,
+    top: `0`,  // 改为 0
     left: `50%`,
-    transform: `translate(-50%, -50%) scale(${scale.value})`,
+    transform: `translate(-50%, 0) scale(${scale.value})`,  // 调整以消除空白
   };
 };
 
 onMounted(() => {
+  // 添加重定向逻辑
+  try {
+    const urlhash = window.location.hash;
+    if (!urlhash.match("fromapp")) {
+      if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i))) {
+        window.location.replace("http://star.allstar-med.com/"); // 修改为你的手机站网址
+      }
+    }
+  } catch (err) {
+    console.error(err);
+  }
+
   updateScale();
   window.addEventListener('resize', updateScale);
 });
@@ -50,13 +62,13 @@ const wrapperStyle = ref({});
 watch(scale, (newScale) => {
   wrapperStyle.value = {
     transform: `scale(${newScale})`,
-    transformOrigin: 'center center',
+    transformOrigin: 'top center',  // 改为 'top center'
     width: `${baseWidth}px`,
     height: `${baseHeight}px`,
     position: 'absolute',
-    top: `50%`,
+    top: `0`,  // 改为 0
     left: `50%`,
-    transform: `translate(-50%, -50%) scale(${newScale})`,
+    transform: `translate(-50%, 0) scale(${newScale})`,  // 调整以消除空白
   };
 });
 </script>
@@ -72,8 +84,21 @@ watch(scale, (newScale) => {
   height: 100vh;
   position: relative;
 }
+
 #scale-wrapper {
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 600px) {
+  #scale-wrapper {
+    transform: scale(0.5); /* Adjust as necessary for smaller screens */
+    transform-origin: top left;
+    width: 100%;
+    height: auto; /* Let height adjust to content */
+    position: relative;
+    top: 0;
+    left: 0;
+  }
 }
 </style>
