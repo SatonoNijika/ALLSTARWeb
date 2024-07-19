@@ -46,21 +46,21 @@
 import { ref } from 'vue';
 
 const companies = [
-  { imageUrl: '/public/img/logo.jpg', name: 'Company 1' },
-  { imageUrl: '/public/img/logo.jpg', name: 'Company 2' },
-  { imageUrl: '/public/img/logo.jpg', name: 'Company 3' },
-  { imageUrl: '/public/img/logo.jpg', name: 'Company 4' },
-  { imageUrl: '/public/img/logo.jpg', name: 'Company 5' },
-  { imageUrl: '/public/img/logo.jpg', name: 'Company 1' },
-  { imageUrl: '/public/img/logo.jpg', name: 'Company 2' },
-  { imageUrl: '/public/img/logo.jpg', name: 'Company 3' },
-  { imageUrl: '/public/img/logo.jpg', name: 'Company 4' },
-  { imageUrl: '/public/img/logo.jpg', name: 'Company 5' },
-  { imageUrl: '/public/img/logo.jpg', name: 'Company 1' },
-  { imageUrl: '/public/img/logo.jpg', name: 'Company 2' },
-  { imageUrl: '/public/img/logo.jpg', name: 'Company 3' },
-  { imageUrl: '/public/img/logo.jpg', name: 'Company 4' },
-  { imageUrl: '/public/img/logo.jpg', name: 'Company 5' },
+  { imageUrl: '/public/img/award1.jpg', name: 'Company 1' },
+  { imageUrl: '/public/img/award1.jpg', name: 'Company 2' },
+  { imageUrl: '/public/img/award1.jpg', name: 'Company 3' },
+  { imageUrl: '/public/img/award1.jpg', name: 'Company 4' },
+  { imageUrl: '/public/img/award1.jpg', name: 'Company 5' },
+  { imageUrl: '/public/img/award1.jpg', name: 'Company 1' },
+  { imageUrl: '/public/img/award1.jpg', name: 'Company 2' },
+  { imageUrl: '/public/img/award1.jpg', name: 'Company 3' },
+  { imageUrl: '/public/img/award1.jpg', name: 'Company 4' },
+  { imageUrl: '/public/img/award1.jpg', name: 'Company 5' },
+  { imageUrl: '/public/img/award1.jpg', name: 'Company 1' },
+  { imageUrl: '/public/img/award1.jpg', name: 'Company 2' },
+  { imageUrl: '/public/img/award1.jpg', name: 'Company 3' },
+  { imageUrl: '/public/img/award1.jpg', name: 'Company 4' },
+  { imageUrl: '/public/img/award1.jpg', name: 'Company 5' },
 ];
 
 </script>
@@ -120,8 +120,8 @@ const companies = [
 }
 
 .partner-image-container {
-  width: 170px;
-  height: 80px;
+  width: 300px;
+  height: 200px;
   box-shadow: 4px 4px 4px 4px rgba(0.4, 0.4, 0.4, 0.1);
 }
 

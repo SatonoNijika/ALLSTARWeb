@@ -13,10 +13,10 @@
 <script setup>
 // 定义列表项数据
 const items = ref([
-  { id: 1, title: '3', description: 'Series' },
-  { id: 2, title: '60', description: 'Senior Medical Robotic Engineers' },
-  { id: 3, title: '140', description: 'Original Invention Patterns' },
-  { id: 4, title: '15', description: 'Entrepreneurship Competition Awards' }
+  { id: 1, title: '9', description: 'Trolley' },
+  { id: 2, title: '20', description: 'Senior Medical Robotic Engineers' },
+  { id: 3, title: '18', description: 'Invention technology patent' },
+  { id: 4, title: '4', description: 'Innovation and Entrepreneurship Competition' }
 ]);
 </script>
 
@@ -91,6 +91,7 @@ dt::after {
 
 dd {
   margin-top: 10px;
+  margin-left: 0px;
   font-size: 32px; /* Increase font size */
   color: #666;
 }

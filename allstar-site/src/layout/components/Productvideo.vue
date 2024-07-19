@@ -5,7 +5,7 @@
         <div class="left">
           <div class="video">
             <!-- 这里放置视频图片 -->
-            <img src="/public/img/rob.png" alt="Video Thumbnail">
+            <video src="/public/videos/ur10.mp4" autoplay loop muted></video>
           </div>
         </div>
         <div class="right">
@@ -41,7 +41,7 @@
   padding-left: 168px; /* right有一个左168的padding */
 }
 
-.video img {
+.video video {
   /* 视频图片样式 */
   width: 100%; /* 填充视频容器 */
   height: auto; /* 自适应高度 */

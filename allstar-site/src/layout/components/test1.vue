@@ -1,51 +1,109 @@
 <template>
-  <el-container>
-    <el-header>
-      <h1>SGNIO Piercing Robot</h1>
-    </el-header>
-    <el-main>
+<div class="row2">
+  <div class="card">
+    <div class="card-content">
+      <h1>R-STAR</h1>
+      <p>Towards next-generation interventions</p>
       <div class="image-container">
-        <img src="/public/img/sgnnm-pic-01.png" alt="SGNIO Piercing Robot">
-        <div class="annotation" style="top: 20%; left: 30%;">Force perception</div>
-        <div class="annotation" style="top: 40%; left: 20%;">Near infrared optical positioning</div>
-        <div class="annotation" style="top: 60%; left: 30%;">Force measurement</div>
-        <div class="annotation" style="top: 80%; left: 40%;">Ultrasonic probe</div>
+        <img src="/public/img/1a.jpg" alt="Device" class="device-image">
+        <button class="learn-more">LEARN MORE</button>
       </div>
-      <el-card class="text-container">
-        <p>The SIEM executive end integrates near-infrared optical positioning technology, real-time ultrasonic imaging and display technology, force sensing and haptic control technology, making the surgical process more accurate, intuitive, convenient and safe. In addition, the SIEM executive end is equipped with a more versatile chuck, enabling the robot to accommodate more types of puncture needles.</p>
-      </el-card>
-    </el-main>
-  </el-container>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="card-content">
+      <h1>R-STAR</h1>
+      <p>Towards next-generation interventions</p>
+      <div class="image-container">
+        <img src="/public/img/2a.jpg" alt="Device" class="device-image">
+        <button class="learn-more">LEARN MORE</button>
+      </div>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="card-content">
+      <h1>R-STAR</h1>
+      <p>Towards next-generation interventions</p>
+      <div class="image-container">
+        <img src="/public/img/3a.jpg" alt="Device" class="device-image">
+        <button class="learn-more">LEARN MORE</button>
+      </div>
+    </div>
+  </div>
+</div>
 </template>
 
 <script>
 export default {
-  name: 'RobotInfo'
+  name: 'SgnioCard',
 };
 </script>
 
 <style scoped>
+.card {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 85px 155px;
+  margin: 0px 25px;
+  width: 540px;
+  height: 760px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* 调整卡片之间的间距 */
+  padding: 20px;
+}
+
+.card-content h1 {
+  color: #3c50e0;
+  margin: 0;
+  font-size: 48px;
+}
+
+h1 {
+  text-align: left;
+}
+
+.card-content p {
+  color: #555;
+  margin: 10px 0;
+  font-size: 28px;
+  text-align: left;
+}
+
 .image-container {
   position: relative;
-  text-align: center;
-}
-
-.image-container img {
   width: 100%;
-  max-width: 600px;
-  height: auto;
 }
 
-.annotation {
+.device-image {
+  width: 100%;
+  height: 654px;
+  margin: 20px 0;
+}
+
+.learn-more {
   position: absolute;
-  background: rgba(0, 0, 0, 0.7);
-  color: #fff;
-  padding: 5px;
-  border-radius: 3px;
+  bottom: 10px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #3c50e0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 34px;
 }
 
-.text-container {
-  margin-top: 20px;
-  padding: 20px;
+.learn-more:hover {
+  background-color: #2a3ba0;
 }
 </style>

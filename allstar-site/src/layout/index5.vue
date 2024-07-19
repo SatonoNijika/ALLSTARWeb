@@ -21,6 +21,9 @@
                 <ProductIDEA />  
                 </div>
                 <div>
+                <VidBox />  
+                </div>
+                <div>
                 <Productvideo />  
                 </div>
                  <div>
@@ -50,7 +53,7 @@ import CoopBox2 from './components/CoopBox2.vue';
 import Productvideo from './components/Productvideo.vue';
 import Productguide from './components/Productguide.vue';
 import STARIMGBox2 from './components/STARIMGBox2.vue';
-import Meetcontent from './components/Meetcontent.vue';
+import VidBox from './components/VidBox.vue';
 import MeetList from './components/MeetList.vue';
 import ASTARBox from './components/ASTARBox.vue';
 import Requirecontent from './components/Requirecontent.vue';

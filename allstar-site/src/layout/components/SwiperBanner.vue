@@ -49,9 +49,9 @@ const nextEl = () => {
 }
 
 const events = [
-  { id: 3 },
+  { id: 7 },
+  { id: 8 },
   { id: 4 },
-  { id: 5 },
 ];
 
 const getEventImageUrl = (eventId) => {

@@ -13,6 +13,9 @@
                 <IndBox />
                 </div>
                 <div>
+                <Indlist />
+                </div>
+                <div>
                 <IndBoxSwiperSilde3 /> 
                 </div>
                 <div>
@@ -39,6 +42,7 @@ import HeaderBox from './components/HeaderBox.vue';
 import SwiperBanner from './components/SwiperBanner.vue';
 import List from './components/List.vue';
 import IndBox from './components/IndBox.vue';
+import Indlist from './components/Indlist.vue';
 import FooterBg from './components/FooterBg.vue';
 import FooterB from './components/FooterB.vue';
 import IndBoxSwiperSilde from './components/IndBoxSwiperSilde.vue';

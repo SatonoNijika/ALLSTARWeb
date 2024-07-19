@@ -3,7 +3,7 @@
     <div class="header-flex">
       <!-- 左边放置公司logo -->
       <div class="logo-container">
-        <img src="/public/img/logo.jpg" alt="公司logo" />
+        <img src="/public/img/logo4.png" alt="公司logo" />
       </div>
 
       <!-- 中间放置5个横向的nav btn -->
@@ -116,7 +116,7 @@ const searchText = ref(''); // 响应式数据
   padding-top: 10px;
   padding-bottom: 10px;
   position: relative;
-  margin-left: 150px;
+  margin-left: 120px;
   display: flex;
   height: 100%;
   align-items: center;
@@ -124,7 +124,7 @@ const searchText = ref(''); // 响应式数据
 }
 
 .logo-container img {
-  width: 200px;
+  width: 280px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -151,12 +151,14 @@ const searchText = ref(''); // 响应式数据
 }
 
 .lang {
-  font-size: 14px;
+  font-size: 24px;
+  color: rgb(11, 51, 129);
   .item {
     cursor: pointer;
     &.active {
-      font-size: 18px;
+      font-size: 24px;
       font-weight: bold;
+      color: rgb(11, 51, 129);
     }
   }
 }
@@ -165,9 +167,9 @@ const searchText = ref(''); // 响应式数据
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #000000;
+  color: rgb(11, 51, 129);
   text-decoration: none;
-  padding: 0 50px;
+  padding: 0 30px;
   border-radius: 20px;
   height: 100%;
   font-size: 18px;
@@ -194,7 +196,7 @@ const searchText = ref(''); // 响应式数据
 }
 
 .nav-buttons li a span {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
   font-family: 'Arial', sans-serif;
 }

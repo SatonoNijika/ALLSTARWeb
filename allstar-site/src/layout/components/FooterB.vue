@@ -4,7 +4,7 @@
       <div class="flexbox">
         <div class="text-block">
           <div class="left">Copyright © 2023-2024 ALL-STAR-MED. All Rights Reserved.</div>
-          <div class="right">粤ICP备20240415号</div>
+          <div class="right">粤ICP备2024244685号-1</div>
         </div>
       </div>
     </div>

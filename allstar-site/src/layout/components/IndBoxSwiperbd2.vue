@@ -25,19 +25,19 @@
 import Swiper from 'swiper';
 
 const events = [
-  { id: 1 },
-  { id: 2 },
-  { id: 3 },
-  { id: 4 },
-  { id: 1 },
-  { id: 2 },
-  { id: 3 },
-  { id: 4 },
+  { id: 8 },
+  { id: 7 },
+  { id: 6 },
+  { id: 5 },
+  { id: 8 },
+  { id: 7 },
+  { id: 6 },
+  { id: 5 },
 ];
 
 const getEventImageUrl = (eventId) => {
   // 构建本地图片路径
-  return `/public/img/pro${eventId}.png`;
+  return `/public/img/pro${eventId}.jpg`;
 };
 
 let swiper = null;

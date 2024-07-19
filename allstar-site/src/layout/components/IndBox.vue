@@ -7,43 +7,7 @@
       </div>
       <div lass="tab-box">
         <div class="row1">
-          <img src="/public/img/taiche.jpg" alt="Large Image" />
-        </div>
-       <div class="row2">
-            <div class="list">
-                <ul>
-                    <li>
-                        <div class="pic">
-                        <i><img src="/public/img/A.jpg" alt="图片"></i>
-                        </div>
-                        <div class="tit">A-STAR</div>
-                    </li>
-                    <li>
-                        <div class="pic">
-                        <i><img src="/public/img/B.jpg" alt="图片"></i>
-                        </div>
-                        <div class="tit">U-STAR</div>
-                    </li>
-                    <li>
-                        <div class="pic">
-                        <i><img src="/public/img/C.jpg" alt="图片"></i>
-                        </div>
-                        <div class="tit">C-STAR</div>
-                    </li>
-                    <li>
-                        <div class="pic">
-                        <i><img src="/public/img/D.jpg" alt="图片"></i>
-                        </div>
-                        <div class="tit">On-STAR</div>
-                    </li>
-                    <li>
-                        <div class="pic">
-                        <i><img src="/public/img/C2.jpg" alt="图片"></i>
-                        </div>
-                        <div class="tit">Body-STAR</div>
-                    </li>
-                </ul>
-            </div>
+          <img src="/public/img/taiche1.jpg" alt="Large Image" />
         </div>
       </div>
     </div>
@@ -130,18 +94,18 @@ ul {
 }
 
 li {
-  width: 19%; /* 每个列表项宽度 */
+  width: 33%; /* 每个列表项宽度 */
   text-align: center; /* 文字居中 */
   background-color: #f9f9f9; /* 背景色 */
-  border-radius: 16 px; /* 圆角 */
+  border-radius: 20 px; /* 圆角 */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 阴影 */
 }
 
 .pic {
   width: 100%; /* 图片容器宽度占满父元素 */
-  height: 409px; /* 图片容器高度 */
+  height: 709px; /* 图片容器高度 */
   margin: 10px auto; /* 水平居中 */
-  border-radius: 8px; /* 图片容器圆角 */
+  border-radius: 20px; /* 图片容器圆角 */
   overflow: hidden; /* 隐藏溢出部分 */
 }
 

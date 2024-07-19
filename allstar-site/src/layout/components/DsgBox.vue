@@ -21,19 +21,19 @@
           </div>
         </div>
         <div class="left">
-          <img src="/public/img/rob.jpg" alt="Product 1 Image">
+          <video src="/public/videos/doc2.mp4" autoplay loop muted></video>
         </div>
       </div>
       <div class="flex">
         <div class="left">
-          <img src="/public/img/UR10.jpg" alt="Product 1 Image">
+          <video src="/public/videos/doc3.mp4" autoplay loop muted></video>
         </div>
         <div class="right">
           <div class="dsgtext">
             <div class="dsgcontainer">
                 <div class="box">
                     <div class="type"><span>C-STAR的</span></div>
-                    <div class="tit">UR10机械臂</div>
+                    <div class="tit">机械臂控制</div>
                     <div class="txt">
                         手术方案导航预览界面直观清晰地观察规划的针头插入路径与人体各器官的空间关系，
                         有效避免了医生复杂的空间转换思维。此外，医生可以通过“拖拽控制”功能轻松调整机器人系统的执行端与人体之间的空间关系。
@@ -53,7 +53,7 @@
             <div class="dsgcontainer">
                     <div class="box">
                     <div class="type"><span>A-STAR的</span></div>
-                    <div class="tit">FTK500光学仪器</div>
+                    <div class="tit">光学定位</div>
                     <div class="txt">
                         手术方案导航预览界面直观清晰地观察规划的针头插入路径与人体各器官的空间关系，
                         有效避免了医生复杂的空间转换思维。此外，医生可以通过“拖拽控制”功能轻松调整机器人系统的执行端与人体之间的空间关系。
@@ -67,19 +67,19 @@
           </div>
         </div>
         <div class="left">
-          <img src="/public/img/FTK500.png" alt="Product 1 Image">
+          <img src="/public/img/3a.jpg" alt="Product 1 Image">
         </div>
       </div>
       <div class="flex">
         <div class="left">
-          <img src="/public/img/lichuangan.png" alt="Product 1 Image">
+          <img src="/public/img/2a.jpg" alt="Product 1 Image">
         </div>
         <div class="right">
           <div class="dsgtext">
             <div class="dsgcontainer">
                     <div class="box">
                     <div class="type"><span>C-STAR的</span></div>
-                    <div class="tit">On传感器</div>
+                    <div class="tit">力传感</div>
                     <div class="txt">
                         手术方案导航预览界面直观清晰地观察规划的针头插入路径与人体各器官的空间关系，
                         有效避免了医生复杂的空间转换思维。此外，医生可以通过“拖拽控制”功能轻松调整机器人系统的执行端与人体之间的空间关系。
@@ -113,30 +113,7 @@
           </div>
         </div>
         <div class="left">
-          <img src="/public/img/timo.png" alt="Product 1 Image">
-        </div>
-      </div>
-    <div class="flex">
-        <div class="left">
-          <img src="/public/img/chuangan.png" alt="Product 1 Image">
-        </div>
-        <div class="right">
-          <div class="dsgtext">
-            <div class="dsgcontainer">
-                    <div class="box">
-                    <div class="type"><span>C-STAR的</span></div>
-                    <div class="tit">On传感器</div>
-                    <div class="txt">
-                        手术方案导航预览界面直观清晰地观察规划的针头插入路径与人体各器官的空间关系，
-                        有效避免了医生复杂的空间转换思维。此外，医生可以通过“拖拽控制”功能轻松调整机器人系统的执行端与人体之间的空间关系。
-                        这进一步促进了术中导航期间更准确的穿刺路径和超声探头在体表上的位置。
-                    </div>
-                    <div class="btn">
-                        <a href="#">阅读更多</a>
-                    </div>
-                </div>
-            </div>
-          </div>
+          <img src="/public/img/1a.jpg" alt="Product 1 Image">
         </div>
       </div>
     </div>
@@ -162,7 +139,14 @@
 
 .left img {
   width: 890px;
-  height: 890px;
+  height: 1090px;
+  border-radius: 20px; /* 设置边角为圆润效果 */
+}
+
+.left video {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
 }
 
 .right {

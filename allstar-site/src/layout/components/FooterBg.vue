@@ -41,8 +41,8 @@
                 <dd>
                   <span>肝肿瘤穿刺</span><br>
                   <span>肝肿瘤消融</span><br>
-                  <span>多维可视化 (2D/3D)</span><br>
-                  <span>图像AI处理 (医疗影像)</span>
+                  <span>多维可视化</span><br>
+                  <span>图像AI处理</span>
                 </dd>
               </dl>
               <dl class="dl-item">
@@ -66,7 +66,7 @@
                 <dd>
                   <span>公司邮箱：info@allstar-med.com </span><br>
                   <span>公司地址：珠海横琴三一总部大厦1号楼</span><br>
-                  <span>热线邮箱：283557625@qq.com（售后服务）</span><br>
+                  <span>热线邮箱：283557625@qq.com(售后服务)</span><br>
                 </dd>
               </dl>
             </div>
@@ -202,7 +202,7 @@ import { ElImage } from 'element-plus'; // 导入 Element Plus 的图片组件
 .dl-item2 {
   padding-right: 12px;
   padding-left: 42px;
-  width: 80%;
+  width: 85%;
   margin: 0;
 }
 

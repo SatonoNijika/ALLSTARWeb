@@ -9,7 +9,7 @@
             了解 STAR-PROJECT 如何通过整合术前增强 CT、术中 CT、术中近红外光学、超声、语音、力感知和视觉信息，实现现场重建的综合感知和混合现实干预。
         </div>
         <div class="image-container">
-          <img src="/public/img/xray.png" alt="描述图片的文本">
+          <img src="/public/img/xtaiche.jpg" alt="描述图片的文本">
         </div>
       </div>
     </div>
@@ -41,6 +41,11 @@
 
 .image-container {
   padding-top: 23px; /* 上方 13px 的内边距 */
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
 }
 
 .cont {

@@ -1,175 +1,180 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import LayoutHome from '@/layout/index.vue'
-import LayoutAbout from '@/layout/index2.vue'
-import LayoutService from '@/layout/index3.vue'
-import LayoutCommunicate from '@/layout/index4.vue'
-import LayoutProduct from '@/layout/index5.vue'
-import LayoutTest from '@/layout/index6.vue'
-import LayoutSTARPJ from '@/layout/index7.vue'
-import LayoutUSTAR from '@/layout/index8.vue'
-import LayoutDownload from '@/layout/index9.vue'
-import LayoutRequire from '@/layout/index10.vue'
-import LayoutCommentQA from '@/layout/index11.vue'
-import LayoutCompanySNS from '@/layout/index12.vue'
-import LayoutJoinUS from '@/layout/index13.vue'
+import LayoutHome from '@/layout/index.vue';
+import LayoutAbout from '@/layout/index2.vue';
+import LayoutService from '@/layout/index3.vue';
+import LayoutCommunicate from '@/layout/index4.vue';
+import LayoutProduct from '@/layout/index5.vue';
+import LayoutTest from '@/layout/index6.vue';
+import LayoutSTARPJ from '@/layout/index7.vue';
+import LayoutUSTAR from '@/layout/index8.vue';
+import LayoutDownload from '@/layout/index9.vue';
+import LayoutRequire from '@/layout/index10.vue';
+import LayoutCommentQA from '@/layout/index11.vue';
+import LayoutCompanySNS from '@/layout/index12.vue';
+import LayoutJoinUS from '@/layout/index13.vue';
 
 const routes = [
     {
-        path: '/',
+        path: '/home',
         name: 'Home',
         component: LayoutHome,
         children: [
             {
-                path: "Home",
-                name: "Home",
+                path: "",
+                name: "HomePage",
                 component: () => import("@/views/Home/index.vue"),
             },
         ]
     },
     {
-        path: '/',
+        path: '/about',
         name: 'About',
         component: LayoutAbout,
         children: [
             {
-                path: "About",
-                name: "About",
+                path: "",
+                name: "AboutPage",
                 component: () => import("@/views/About/index.vue"),
             },
         ]
     },
     {
-        path: '/',
+        path: '/communicate',
         name: 'Communicate',
         component: LayoutCommunicate,
         children: [
             {
-                path: "Communicate",
-                name: "Communicate",
+                path: "",
+                name: "CommunicatePage",
                 component: () => import("@/views/Communicate/index.vue"),
             },
         ]
     },
     {
-        path: '/',
+        path: '/service',
         name: 'Service',
         component: LayoutService,
         children: [
             {
-                path: "Service",
-                name: "Service",
+                path: "",
+                name: "ServicePage",
                 component: () => import("@/views/Service/index.vue"),
             },
         ]
     },
     {
-        path: '/',
+        path: '/product',
         name: 'Product',
         component: LayoutProduct,
         children: [
             {
-                path: "Product",
-                name: "Product",
+                path: "",
+                name: "ProductPage",
                 component: () => import("@/views/Product/index.vue"),
             },
         ]
     },
     {
-        path: '/',
+        path: '/starpj',
         name: 'STARPJ',
         component: LayoutSTARPJ,
         children: [
             {
-                path: "STARPJ",
-                name: "STARPJ",
+                path: "",
+                name: "STARPJPage",
                 component: () => import("@/views/STARPJ/index.vue"),
             },
         ]
     },
     {
-        path: '/',
+        path: '/ustar',
         name: 'USTAR',
         component: LayoutUSTAR,
         children: [
             {
-                path: "USTAR",
-                name: "USTAR",
+                path: "",
+                name: "USTARPage",
                 component: () => import("@/views/USTAR/index.vue"),
             },
         ]
     },
     {
-        path: '/',
+        path: '/test',
         name: 'Test',
         component: LayoutTest,
         children: [
             {
-                path: "Test",
-                name: "Test",
+                path: "",
+                name: "TestPage",
                 component: () => import("@/views/Test/index.vue"),
             },
         ]
     },
     {
-        path: '/',
+        path: '/download',
         name: 'Download',
         component: LayoutDownload,
         children: [
             {
-                path: "Download",
-                name: "Download",
+                path: "",
+                name: "DownloadPage",
                 component: () => import("@/views/Download/index.vue"),
             },
         ]
     },
     {
-        path: '/',
+        path: '/require',
         name: 'Require',
         component: LayoutRequire,
         children: [
             {
-                path: "Require",
-                name: "Require",
+                path: "",
+                name: "RequirePage",
                 component: () => import("@/views/Require/index.vue"),
             },
         ]
     },
     {
-        path: '/',
+        path: '/commentqa',
         name: 'CommentQA',
         component: LayoutCommentQA,
         children: [
             {
-                path: "CommentQA",
-                name: "CommentQA",
+                path: "",
+                name: "CommentQAPage",
                 component: () => import("@/views/CommentQA/index.vue"),
             },
         ]
     },
     {
-        path: '/',
+        path: '/companysns',
         name: 'CompanySNS',
         component: LayoutCompanySNS,
         children: [
             {
-                path: "CompanySNS",
-                name: "CompanySNS",
+                path: "",
+                name: "CompanySNSPage",
                 component: () => import("@/views/CompanySNS/index.vue"),
             },
         ]
     },
     {
-        path: '/',
+        path: '/joinus',
         name: 'JoinUS',
         component: LayoutJoinUS,
         children: [
             {
-                path: "JoinUS",
-                name: "JoinUS",
+                path: "",
+                name: "JoinUSPage",
                 component: () => import("@/views/JoinUS/index.vue"),
             },
         ]
     },
+    // 捕获所有未定义的路由并重定向到主页或404页面
+    {
+        path: '/:catchAll(.*)',
+        redirect: '/home'
+    }
 ]
 
 const router = createRouter({
@@ -177,4 +182,4 @@ const router = createRouter({
     routes
 })
 
-export default router
+export default router;

@@ -3,7 +3,7 @@
         <HeaderBox />
         <main>
             <div>
-              <mapbox />
+              <test1 />
             </div>
         </main>
         <FooterBg />
@@ -15,7 +15,7 @@
 import HeaderBox from './components/HeaderBox.vue';
 import FooterBg from './components/FooterBg.vue';
 import FooterB from './components/FooterB.vue';
-import mapbox from './components/mapbox.vue';
+import test1 from './components/test1.vue';
 </script>
 
 <style lang="scss" scoped>
